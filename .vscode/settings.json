@@ -1,3 +1,6 @@
 {
-  "IDX.agenticWorkspace": true
+  "IDX.agenticWorkspace": true,
+  "githubPullRequests.remotes": [
+    "https://github.com/rsanhueza83/Informe-semana-8"
+  ]
 }
