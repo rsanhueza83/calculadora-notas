@@ -1,16 +1,102 @@
-# myapp
+# 📱 Calculadora de Notas - Flutter
 
-A new Flutter project.
+Aplicación móvil para calcular el promedio ponderado de 3 notas con validación en tiempo real.
 
-## Getting Started
+## ✨ Características
 
-This project is a starting point for a Flutter application.
+- ✅ Cálculo de promedio ponderado de 3 notas
+- ✅ Validación en tiempo real con feedback visual
+- ✅ Soporte para decimales con coma (formato chileno)
+- ✅ Validación de rangos (notas: 1,0 - 7,0)
+- ✅ Validación de porcentajes (suma debe ser 100%)
+- ✅ Popup elegante para mostrar resultados
+- ✅ Indicación clara si debe rendir examen (promedio < 5,5)
+- ✅ Interfaz intuitiva con Material Design 3
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Capturas de pantalla
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+_Próximamente_
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Comenzando
+
+### Prerrequisitos
+
+- Flutter SDK (3.0 o superior)
+- Dart SDK (3.0 o superior)
+- Android Studio o VS Code
+- Emulador Android o dispositivo físico
+
+### Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/jarayaa/calculadora-notas.git
+cd calculadora-notas
+```
+
+2. Instala las dependencias:
+```bash
+flutter pub get
+```
+
+3. Ejecuta la aplicación:
+```bash
+flutter run
+```
+
+## 🎮 Uso
+
+1. Ingresa las 3 notas (rango: 1,0 - 7,0)
+2. Asigna el porcentaje de ponderación a cada nota
+3. Asegúrate que la suma de porcentajes sea exactamente 100%
+4. Presiona "Calcular"
+5. Visualiza tu promedio en el popup:
+   - **Verde** con "¡Aprobado!" si el promedio es ≥ 5,5
+   - **Rojo** con "Debe Rendir Examen" si el promedio es < 5,5
+
+## 🛠️ Tecnologías
+
+- **Flutter** 3.38.3
+- **Dart** 3.10.1
+- **Material Design 3**
+
+## 📋 Validaciones
+
+### Notas:
+- Rango permitido: 1,0 a 7,0 (ambos inclusive)
+- Solo acepta números con coma como separador decimal
+- Validación en tiempo real con popup de error
+
+### Porcentajes:
+- Rango permitido: 0 a 100
+- La suma total debe ser exactamente 100%
+- Validación en tiempo real con popup de error
+
+## 🎨 Características de UI/UX
+
+- **Feedback visual inmediato:** Bordes rojos cuando hay errores
+- **Popups informativos:** Mensajes claros sobre errores de validación
+- **Formato chileno:** Uso de coma para decimales (6,5 en lugar de 6.5)
+- **Diseño responsive:** Adaptable a diferentes tamaños de pantalla
+- **Material Design 3:** Interfaz moderna y elegante
+
+## 📱 Compatibilidad
+
+- ✅ Android 5.0 (API 21) o superior
+- ✅ iOS 12.0 o superior (sin probar)
+- ✅ Web (sin probar)
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## 👤 Autor
+
+**Jaime Araya Aros**
+
+- GitHub: [@jarayaa](https://github.com/jarayaa)
+
+## Otros
+
+- Inspirado en el sistema de calificaciones de la UNAB.
+- Desarrollado con Flutter.
