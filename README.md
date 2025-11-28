@@ -92,9 +92,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👤 Autor
 
-**Jaime Araya Aros**
-
-- GitHub: [@jarayaa](https://github.com/jarayaa)
+Grupo 3
 
 ## Otros
 
